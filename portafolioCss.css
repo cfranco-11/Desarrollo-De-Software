@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+    font-family: "Rock Salt", cursive;
+}
+
+/* Estilo para que la pagina no tenga scroll y se oculte el contenido que no se quiere mostrar de primeras */
+html, body {
+    height: 100%;
+}
+    body {
+    overflow: hidden;
+}
+
+header{
+    background: linear-gradient(#fff, #000);
+    height: 10%;
+}
+
+/* Estilos aplicados a los titulos h1*/
+h1{
+    font-family: "Rock Salt", cursive;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+/* Estilo contenedor de h1 */
+.title{
+    background: linear-gradient(#fff, #000000);
+}
+
+/* Estilos para las cards */
+
+/* Animación de las cards */
+.card{
+    font-family: "Rock Salt", cursive;
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.2);    
+}
+ /* Quitar estilo de los <a> del las cards y los titulos de cada seccion */
+.card-body-p{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.titleSection{
+    font-size: 300%;
+    margin: 15%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.titleSection:hover{
+    background: radial-gradient(#abaaaa, #fff);    color: #000;
+    border-radius:30px;
+}
+
+/* Manejo de estilos del section "contenedor" donde se encuentran las cards */
+.contenedor {
+    background-color: rgba(0, 0, 0, 0.951);
+    justify-content: space-evenly;
+    padding: 1%;
+    grid-gap: .5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+/* Estilos para redes sociales */
+.socialMedia{
+    text-align: center;
+    padding: 1%;    
+}
+
+/* Estilos para section "containerSections" */
+.containerSections{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20%;
+    place-content: center;
+    font-family: "Rock Salt", cursive;
+    background: linear-gradient(#000, #fff);
+    height: 100%;
+    text-align: center;
+}
+
+/*
+.contenedor div {
+    color: #fdfdfd;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contenedor div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .2s;  Animation
+}
+.contenedor div img:hover{
+    transform: scale(1.2);    
+  } */ 
