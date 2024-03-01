@@ -1,3 +1,3 @@
 addEventListener('click', (e) => {
-    
+    funcion    
 })
