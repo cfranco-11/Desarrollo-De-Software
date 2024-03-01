@@ -1,3 +1,0 @@
-addEventListener('click', (e) => {
-    
-})
