@@ -1,0 +1,52 @@
+html, body {
+    font-family: "Rock Salt", cursive;
+    background-color: black;
+}
+
+.pagina{
+    background-color: black;
+}
+
+/* Estilos aplicados a los titulos h1*/
+.titulo{
+    font-family: "Rock Salt", cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.soy{  
+    position: fixed;
+    margin: 10.5% 0 0 23.5%;
+    width: 10%;
+    font-size: 15px;
+    text-shadow:  1px 1px 5px rgb(0, 0, 255);
+}
+
+
+/* Estilos para las cards */
+
+/* Animación de las cards */
+.card{
+    font-family: "Rock Salt", cursive;
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.2);    
+}
+ /* Quitar estilo de los <a> del las cards y los titulos de cada seccion */
+.card-body-p{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+/* Manejo de estilos del section "contenedor" donde se encuentran las cards */
+.contenedor {
+    
+    justify-content: space-evenly;
+    padding: 1%;
+    grid-gap: .5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
