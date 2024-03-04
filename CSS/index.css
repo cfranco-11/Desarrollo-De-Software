@@ -9,50 +9,33 @@ body {
     color: #ffffff;
     text-align: center;
     font-family: "Rock Salt", cursive;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .main{
     margin: auto auto auto auto;
 }
 
-/* Estilos aplicados al h1: Franco */
-.titulo{
-    display: flex;
-    justify-content: center;
-    width: 145vh;
-}
-
 /* Estilos aplicados al p: soy */
-.soy{  
-    position: fixed;
-    margin: 3.5% 0 0 23.5%;
-    width: 10%;
-    font-size: 15px;
+.soy{
     text-shadow:  1px 1px 5px rgb(0, 0, 255);
 }
 
-/* Estilos aplicados al contenedor de los a, para distribuirlos */
-.sections{
-    font-size: 30px;
+.fijo{
     display: flex;
-    justify-content: space-between;
-    width: 150vh;
+    justify-content: center;
 }
+
 
 /* Estilos aplicados para quitar la decoración y que no parezcan links */
 .sections a{
+    margin: 0 80px;
     text-decoration: none;
     color: white;
 }
 
 /* Estilos aplicados a los <a> para que cambien su estilo y resalten al pasar sobre ellos */
 .sections a:hover{
-    animation: cambiaColor 3s linear infinite;
-    text-shadow:  1px 1px 5px rgb(255, 255, 255), -10px 10px 25px rgb(255, 255, 255);
-}
-
-.sections img:hover{
     animation: cambiaColor 3s linear infinite;
     text-shadow:  1px 1px 5px rgb(255, 255, 255), -10px 10px 25px rgb(255, 255, 255);
 }
