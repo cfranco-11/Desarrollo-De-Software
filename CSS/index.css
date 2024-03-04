@@ -16,6 +16,12 @@ body {
     margin: auto auto auto auto;
 }
 
+@media (min-width: 1000px) {
+    .main{
+        margin: 12% auto auto auto;
+    }
+}
+
 /* Estilos aplicados al p: soy */
 .soy{
     text-shadow:  1px 1px 5px rgb(0, 0, 255);
