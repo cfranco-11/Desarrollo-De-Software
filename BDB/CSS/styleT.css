@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem
+}
+
+.resumenes h2 {
+    display: flex;
+    align-items: flex-start;
+    color: antiquewhite;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: center;
+    padding: 2px;
+}
+
+.mejores h2 {
+    display: flex;
+    align-items: flex-start;
+    color: antiquewhite;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: center;
+    padding: 2px;
+}
+
+.mejores h2:hover {
+    color: red;
+}
+
+.resumenes h2:hover {
+    color: red;
+}
+
+.horario {
+    display: flex;
+    justify-content: center;
+}
+
+.horario img{
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.videoo {
+    display: none;
+}
+
+@media(max-width:700px) {
+    .videoo {
+        display: inline;
+        margin-top: 150px;
+        justify-content: end;
+    }
+
+    .horario {
+        display: none;
+    }
+
+    .resumenes {
+        display: none;
+    }
+
+    .mejores {
+        display: none;
+    }
+}

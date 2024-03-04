@@ -1,0 +1,102 @@
+body {
+	font-family: 'Bebas Neue', sans-serif;
+	background-color: black;
+}
+
+.titulo2 {
+	text-align: center;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 50px;
+	color: red;
+	text-shadow: 2px 1px;
+}
+
+.carusel {
+	height: 400px;
+	display: flex;
+	margin: 25px 250px;
+}
+
+.titulo2 h2:hover {
+	color: whitesmoke
+}
+
+.horario img {
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+}
+
+.horario img:hover {
+	-webkit-transform:scale(1);transform:scale(1.1);
+	opacity: 1;
+	filter: contrast(120%);
+}
+
+.selec-talentos {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.talentos {
+	text-decoration: none;
+}
+
+.talentos button {
+	background: #ff0000;
+	/* color de fondo */
+	color: #050505;
+	/* color de fuente */
+	font-family: 'Bebas Neue', sans-serif;
+	padding: 10px 15px;
+	border-radius: 10px;
+	/* redondear bordes */
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.talentos button:hover {
+	color: rgb(255, 255, 255);
+}
+
+.talentos button::after {
+	content: "";
+	background: #2e2b2aa1;
+	/* color de fondo hover */
+	position: absolute;
+	z-index: -1;
+	padding: 16px 20px;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: -100%;
+	right: 100%;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+}
+
+.talentos button:hover::after {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+}
+
+@media(max-width:700px) {
+	.titulo2 {
+		display: none;
+	}
+
+	.carusel {
+		height: 200px;
+		display: flex;
+		margin: 25px 250px;
+	}
+}

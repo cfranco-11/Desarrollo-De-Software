@@ -1,0 +1,70 @@
+.container{
+    position: relative;
+}
+
+.container .wrapper{
+    width: 60vw;
+    height: 70vh;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.6);
+    margin: 5rem auto   ;
+}
+
+.container .wrapper-holder{
+    display: grid;
+    grid-template-columns: repeat(5, 100%);
+    animation: slider 30s ease-in-out infinite;
+}
+
+.container #Lunes{
+    background-image: url(/Recursos/Lunes.jpg);
+    background-position: center;
+}
+
+.container #Martes{
+    background-image: url(/Recursos/Lunes.jpg);
+    background-position: center;
+}
+
+.container #Miercoles{
+    background-image: url(/Recursos/Lunes.jpg);
+    background-position: center;
+}
+
+.container #Jueves{
+    background-image: url(/Recursos/Lunes.jpg);
+    background-position: center;
+}
+
+.container #Viernes{
+    background-image: url(/Recursos/Lunes.jpg);
+    background-position: center;
+}
+
+.container .button-holder .button{
+    background-color: rgba(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+
+.container .button-holder{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 75px;
+    font-family: 'Fjalla One', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: 25px;
+    margin-left: 64px;
+    height: 100px;
+}
+
+.redes {
+    margin-right: 64px;
+}
+
+nav a {
+    font-weight: 800;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    border-radius: 5px;
+    color: rgb(255,59,59);
+}
+
+nav {
+    width: auto;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-link {
+    padding-right: 150px;
+}
+
+@media(max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        padding-right: 10px;
+    }
+
+    .nava {
+        display: none;
+    }
+}
+
+.inicio {
+    color: rgb(197,39,40);
+}
+
+.intro {
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 1px 1px 10px black;
+    padding-left: 50px;
+    margin: auto 64px 64px 64px;
+    height: 49rem;
+    background-image: url(/BDB/Recursos/Mejores\ jugadas\ Torneo\ Barrio\ Antioquia\ Recortado.gif);
+    border-radius: 1.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+h2 {
+    padding-top: 70px;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.intro2 {
+    margin-top: -41px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.btn {
+    text-shadow: 1px 1px black;
+    background-color: rgb(255,59,59);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10rem;
+}
+
+.btn {
+    bottom: 20px;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.opciones {
+    position: relative;
+    display: inline-block;
+}
+
+.opciones:hover .drop {
+    display: flex;
+}
+
+.drop .tablas {
+    min-width: 160px;
+}
+
+.drop {
+    background-color: black;
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+    z-index: 1;
+    border-top: 5px solid rgb(255,59,59);
+}
+
+.drop a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop a:hover {
+    background-color: rgb(255,59,59);
+    color: white;
+}
+
+.tablas {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
