@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 }
 
 /* Estilos aplicados para quitar la decoración y que no parezcan links */
