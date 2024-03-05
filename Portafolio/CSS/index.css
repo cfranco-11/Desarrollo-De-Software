@@ -34,6 +34,11 @@ body {
     justify-content: center;
 }
 
+.linkTitulo{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* Estilos aplicados para quitar la decoración y que no parezcan links */
 .sections a {
     margin: 0 80px;
