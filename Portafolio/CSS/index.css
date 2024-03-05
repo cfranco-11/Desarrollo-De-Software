@@ -29,12 +29,10 @@ body {
 }
 
 /* Posicionamiento elementos */
-.fijo {
-    display: flex;
-    justify-content: center;
-}
 
 .linkTitulo{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: #ffffff;
 }
