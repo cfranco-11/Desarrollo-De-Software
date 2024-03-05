@@ -205,7 +205,7 @@
 .toggle-right {
   right: 0;
   transform: translateX(0);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/General/Images/ImagesTeachers/fondoLogin2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/RiwiMindset/General/Images/ImagesTeachers/fondoLogin2.png);
 }
 
 .container.active .toggle-right {
