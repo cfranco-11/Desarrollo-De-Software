@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Portafolio/CSS/bd.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD</title>
+</head>
+<body>
+
+    <h1>* Investigar en Mysql.</h1>
+    <p>
+        <h2>¿Que es un motor de base de datos?</h2>
+        Es el componente de software subyacente que un sistema de administración de la base de datos (SGBD) utiliza para crear, leer, actualizar y eliminar (CRUD) datos de una base de datos.
+    </p>
+
+    <p>
+        <h2>¿Cual es la diferencia entre SQL y MYSQL?</h2>
+        MySQL es la tecnología subyacente que almacena los datos, mientras que SQL es el lenguaje que se utiliza para leer, modificar y eliminar esos datos.
+    </p>
+
+    <p>
+        <h2>¿Que es una relación en MYSQL?</h2>
+        Es una asociación que se crea entre tablas, con el fin de vincularlas y garantizar la integridad referencial de sus datos.
+    </p>
+
+    <h1>* Sentencias SQL</h1>
+    <p>
+        <h2>INSERT:</h2>
+        Permite generar sentencias de SQL para insertar nuevas filas en una base de datos.
+    </p>
+
+    <p>
+        <h2>SELECT:</h2>
+        Permite generar consultas SQL que contienen todas las filas que coinciden con las condiciones especificadas, aunque las filas están duplicadas. Las consultas pueden enviarse a una pantalla o a un archivo.
+    </p>
+
+    <p>
+        <h2>UPDATE:</h2>
+        Permite generar sentencias de SQL para actualizar filas de una base de datos.
+    </p>
+
+    <p>
+        <h2>DELETE:</h2>
+        Permite suprimir filas especificadas de una base de datos.
+    </p>
+
+    <p>
+        <h2>CREATE TABLE:</h2>
+        La sentencia CREATE TABLE define una tabla. Esta definición debe incluir el nombre de la tabla y los nombres y atributos de sus columnas. La definición puede incluir otros atributos de la tabla, como su clave primaria o restricciones de comprobación.
+    </p>
+
+    <p>
+        <h2>ALTER TABLE:</h2>
+        Es la sentencia SQL para para añadir, eliminar o modificar columnas en una tabla, así como para agregar o suprimir restricciones en la misma.
+    </p>
+
+    <h1>* Actividad-review-1</h1>
+
+    <p>
+        <h2>¿Qué es un modelo entidad relación?</h2>
+        Modelo Entidad-Relación (ER): Es un modelo conceptual que se utiliza para representar la estructura de una base de datos de manera visual, utilizando entidades para representar objetos y relaciones para representar cómo se relacionan estos objetos entre sí.
+    </p>
+
+    <p>
+        <h2>¿Qué es un Diagrama entidad relación?</h2>
+        Diagrama Entidad-Relación: Es una representación gráfica de un modelo entidad-relación que muestra las entidades, atributos y relaciones de una base de datos de forma visual y fácil de entender.
+    </p>
+
+    <p>
+        <h2>¿Qué es una llave primaria?</h2>
+        Llave Primaria: Es un atributo (o conjunto de atributos) que identifica de forma única a cada registro en una tabla. Se utiliza para garantizar que no haya duplicados y para establecer relaciones con otras tablas.
+    </p>
+
+    <p>
+        <h2>¿Qué es una llave foránea?</h2>
+        Llave Foránea: Es un atributo (o conjunto de atributos) en una tabla que establece una relación con la llave primaria de otra tabla. Se utiliza para conectar dos tablas y establecer la relación entre ellas.
+    </p>
+
+    <p>
+        <h2>¿Qué es una relación 1:1 (uno a uno)?</h2>
+        Relación 1:1 (Uno a Uno): Es un tipo de relación en la que un registro en una tabla se relaciona con exactamente un registro en otra tabla, y viceversa. Por ejemplo, un cliente tiene una dirección única y una dirección está asociada a un único cliente.
+    </p>
+
+    <p>
+        <h2>¿Qué es una relación 1:* (uno a muchos)?</h2>
+        Relación 1: (Uno a Muchos):* Es un tipo de relación en la que un registro en una tabla se relaciona con uno o más registros en otra tabla, pero un registro en la segunda tabla se relaciona solo con un único registro en la primera tabla. Por ejemplo, un cliente puede tener muchas órdenes, pero cada orden está asociada a un único cliente.
+    </p>
+
+    <p>
+        <h2>¿Qué es una relación *:* (muchos a muchos)?</h2>
+        Relación : (Muchos a Muchos): Es un tipo de relación en la que un registro en una tabla puede estar relacionado con varios registros en otra tabla, y viceversa. Para representar este tipo de relación en una base de datos relacional, se utiliza una tabla intermedia que relaciona las dos tablas principales. Por ejemplo, muchos estudiantes pueden inscribirse en muchos cursos, y muchos cursos pueden tener muchos estudiantes inscritos.
+    </p>
+
+    <h1>* Actividad VIEWS-MongoDB</h1>
+
+    <p>
+        <h2>Qué son las VIEWS en MYSQL?</h2>
+        Es un subconjunto de una base de datos y se basa en una consulta que se ejecuta en una o más tablas de base de datos.
+    </p>
+
+    <p>
+        <h2>¿Qué son los procedimientos almacenados?</h2>
+        Es un conjunto de instrucciones que se pueden llamar desde otras consultas o desde otros procedimientos almacenados. 
+    </p>
+
+    <p>
+        <h2>¿Cual es la diferencia entre SQL y NoSQL?</h2>
+        Las principales diferencias entre ambos modelos de BBDD son: <br>
+        -Las BBDD SQL almacenan datos de manera estructurada y las NoSQL lo hacen en su formato original.<br>
+        -Las SQL proporcionan una capacidad de escalar baja, en comparación con las NoSQL. Esta es una de las principales ventajas de las NoSQL, ya que están pensadas para grandes volúmenes de información como el Big Data.<br>
+        -La adaptación a los cambios de las SQL es poca y puede ser compleja. Sin embargo, las NoSQL son totalmente flexibles.<br>
+        -Las BBDD SQL están totalmente estandarizadas y las NoSQL carecen de homogeneización.<br>
+        -Las BBDD SQL proporcionan consistencia en los datos (integridad). Sin embargo, las NoSQL, al buscar rapidez, no ponen el foco en esta característica.<br>
+    </p>
+
+    <p>
+        <h2>¿Qué es MongoDB?</h2>
+        MongoDB es una base de datos de documentos que ofrece una gran escalabilidad y flexibilidad, y un modelo de consultas e indexación avanzado.
+    </p>
+</body>
+</html>
