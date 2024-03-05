@@ -55,12 +55,12 @@ function validateFormLogin(){
     if(cedula == 1 && password == 1){
         setTimeout(function() {
             // Cambia la URL a la que quieres redirigirte
-            window.location.href = "/RiwiMindset/Teachers/HomeTeachers/indexTeachersHome.html"
+            window.location.href = "RiwiMindset/Teachers/HomeTeachers/indexTeachersHome.html"
           }, 100); // 10000 milisegundos = 10 segundos
         }else if(cedula == 2 && password == 2){
             setTimeout(function() {
                 // Cambia la URL a la que quieres redirigirte
-                window.location.href = "/RiwiMindset/Students/HomeStudents/indexHomeEstudents.html"
+                window.location.href = "RiwiMindset/Students/HomeStudents/indexHomeEstudents.html"
               }, 100); // 10000 milisegundos = 10 segundos
             }
         
